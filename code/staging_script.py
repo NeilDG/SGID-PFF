@@ -35,11 +35,12 @@ def main(argv):
     # HAZY_PATH = "E:/Hazy Dataset Benchmark/OTS_BETA/haze/"
     # hazy_list = glob.glob(HAZY_PATH + "*0.95_0.2.jpg")  # specify atmosphere intensity
 
-    # HAZY_PATH = "E:/Hazy Dataset Benchmark/RESIDE-Unannotated/"
-    # hazy_list = glob.glob(HAZY_PATH + "*.jpeg")
+    HAZY_PATH = "E:/Hazy Dataset Benchmark/RESIDE-Unannotated/"
+    hazy_list = glob.glob(HAZY_PATH + "*.jpeg")
 
-    HAZY_PATH = "E:/Hazy Dataset Benchmark/I-HAZE/hazy/"
-    hazy_list = glob.glob(HAZY_PATH + "*.jpg")
+    # HAZY_PATH = "E:/Hazy Dataset Benchmark/I-HAZE/hazy/"
+    # hazy_list = glob.glob(HAZY_PATH + "*.jpg")
+
     #
     # HAZY_PATH = "E:/Hazy Dataset Benchmark/O-HAZE/hazy/"
     # hazy_list = glob.glob(HAZY_PATH + "*.jpg")
